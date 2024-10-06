@@ -1,0 +1,6 @@
+8:35 FV3 (Ahorro) 10:00
+FV3 (Reunion - Daily - n8n - Carlos bdd ) 10:40
+19:00 Contabilidad (Regus) 19:10
+19:15 Contabilidad (ASPASA, PRL, EasyPark, Uber, Cabify, Diseño, Adobe, Pixartprinting, Envato) 19:40
+20:05 RC-RPA (Inicio basico de Selenium - Recordar como funciona)  21:55
+Barter (re-haciendo environment de debugging) 22:35

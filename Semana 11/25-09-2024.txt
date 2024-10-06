@@ -1,0 +1,11 @@
+9:20 SEPA (correo a debora para ver si reabrio el ticket) 9:25
+Uptime (Cambiar parametros) 9:30
+FV3 (No funciona produccion - tema parquet) 10:55
+RPA (Necesito el certificado) 11:45
+Uptime (cambiar parametros) 11:50
+Sherweb (ver estado) 12:15
+Formacion-Odoo (Alba pagina de partners y modificacion de blog) 13:30
+FV3 (Ver en que puedo ayudar a Yamil) 13:50
+Outlook (ver xmlrpc y odoo) 14:10
+16:00 Sherweb (ultimo producto - muy tricky) 16:40
+Outlook (chatgpt para odoo xmlrpc) 17:00

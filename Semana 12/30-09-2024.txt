@@ -1,0 +1,9 @@
+5:40 FV3 (mixto va mal al frontend - se comporta distinto en local y en simulación de backend) 6:15
+6:40 FV3 (mixto va mal al frontend - se comporta distinto en local y en simulación de backend) 7:10
+GSIC (Replicar estructura de sharepoint) 8:15
+9:25 GSIC (Replicar estructura de sharepoint) 10:35
+10:55 GSIC (Replicar estructura de sharepoint) 11:00
+Daily (No curso - estado de FV3) 11:50
+Daily (Explicación Yamil) 12:50
+13:35 FV3 (añadir wocs al parquet) 15:20
+16:50 FV3 (añadir wocs al parquet) 17:45

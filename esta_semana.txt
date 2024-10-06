@@ -1,0 +1,54 @@
+7:00 SEPA (Responder a Deborah - Probar en producción) 7:35
+Onboarding (leer política de la empresa) 8:05
+9:15 FV3 (añadir wocs a parquet) 10:00
+Daily (FV3 - digitalización acuerdo de reparto - Singular:operaciones -> planificación) 11:40
+12:00 Contabilidad (Cagada con SEPA, estado de facturas) 12:25
+FV3 (No sé que tan sensibles son los datos del parquet - Migrar endpoints) 14:30
+FV3 (Subir imagen) 14:45
+FV3 (Poner en barter normal) 15:00
+FV3 (Ver feedback) 15:20
+17:50 FV3 (Poner en producción solo equipo barter) 18:10
+FV3 (ajustar cálculo) 18:45
+19:15 FV3 (visible solo para Barter team) 19:25
+9:05 FV3 (corregir horror en cálculo) 10:00
+Barter-Daily (n8n) 11:05
+FV3 (Testing y Subir correción de cálculo) 11:45
+12:00 Barter-Status (reunion) 13:00
+13:45 RPA (Solucionar certificado digital - formación - perder tiempo, usar el mío) 14:20
+14:25 RPA (Solucionar certificado digital - formación - perder tiempo, usar el mío) 14:40
+FV3 (lock % Mixto) 15:00
+Singular-Reuniones (Mantenimiento - ver odoo) 17:00
+FV3 (lock % Mixto) 17:20
+17:25 FV3 (lock % Mixto) 17:30
+08:30 Barter-Status (acta) 8:35
+SEPA (apuntar dudas y preguntar a Jesús) 8:55
+RPA (proceder con certificado) 9:30
+9:45 RPA (usar windows click para seleccionar certificado) 10:00
+Barter-Daily (origen2 - pdf) 10:30
+RPA (click psyco) 11:15
+11:30 RPA (click psyco) 12:30
+RC-Weekly (reunión) 12:50
+RC-Weekly (acta) 12:55
+Barter-Montly (acta) 13:15
+13:45 RPA (click psyco) 14:40
+15:00 contabilidad (confirmar facturas que están bien) 15:20
+RPA (click psyco) 16:00
+Singular 17:45
+Sepa 18:45
+10:00 Barter-Daily (CMS - Calculadora - No más bolsa de horas) 10:55
+11:15 SEPA (Testing) 11:45
+13:45 FV3 (Cálculo avanzado) 14:30
+FV3 (Rompí dev y Yamil se tropezo con mi error) 15:15
+15:20 FV3 (Cálculo avanzado) 
+2:40 FV3 (Permitting de varios productos) 2:50
+3:10 FV3 (Permitting de varios productos) 4:20
+16:50 FV3 (Ajustar valores) 17:45
+5:40 FV3 (mixto va mal al frontend - se comporta distinto en local y en simulación de backend) 6:15
+6:40 FV3 (mixto va mal al frontend - se comporta distinto en local y en simulación de backend) 7:10
+GSIC (Replicar estructura de sharepoint) 8:15
+9:25 GSIC (Replicar estructura de sharepoint) 10:35
+10:55 GSIC (Replicar estructura de sharepoint) 11:00
+Daily (No curso - estado de FV3) 11:50
+Daily (Explicación Yamil) 12:50
+13:35 FV3 (añadir wocs al parquet) 15:20
+16:50 FV3 (añadir wocs al parquet) 17:45

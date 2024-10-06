@@ -1,0 +1,7 @@
+9:45 FV3 (Calculo PPA y Mixto) 10:00
+FV3 (Reunion daily - revision) 11:10
+FV3 (Correccion de "No se suben las ofertas al parquet") 11:40
+FV3 (Diferencia ACC entre python y Excel) 12:35
+13:10 FV3 (Correccion de "No se suben las ofertas al parquet") 14:35
+FV3 (Refinar ACC) 15:15
+16:35 (Refinar ACC) 19:00

@@ -1,0 +1,11 @@
+9:30 FV3 (Conectar endpoints) 9:45
+10:00 Barter-Daily (FV3) 10:55
+benefica (reunion) 11:11
+FV3 (Reunion Yamil Explicarme hubspot-azure) 11:28
+FV3 (sandbox no funciona) 12:30
+RC (fotos) 12:40
+FV3 (sandbox no funciona) 14:00
+RC (reunion, pre, acta) 14:55
+FV3 (subir parquet) 16:00
+17:20 FV3 (hacer parquet) 18:50
+19:40 FV3 (hacer parquet) 19:50

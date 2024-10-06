@@ -1,0 +1,2 @@
+18:00 FV3 (Arreglando frontend para comunicar con Backend) 18:30
+00:00 FV3 (Arreglar como recibe el backend lo que viene del frontend) 1:30
