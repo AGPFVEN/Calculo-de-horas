@@ -1,0 +1,11 @@
+9:25 FV3 (Mostrar resultados en paso anterior a subida) 10:10
+SEPA (knoledge transfer el poder del vapor) 10:15
+SEPA (Comunicar con deborah) 10:25
+FV3 (Mostrar resultados en paso anterior a subida) 12:15
+Empleado (Tengo que ir a tesorería) 12:30
+FV3 (Mostrar resultados en paso anterior a subida) 14:00
+15:50 FV3 (Mostrar resultados en paso anterior a subida) 16:35
+FV3 (Guardar resultados en Parquet) 16:45
+FV3 (Procedimiento de Ramas en Github) 17:15
+FV3 (Fixes [typos - formulas en front]) 18:15
+FV3 (Subir a producción) 18:50

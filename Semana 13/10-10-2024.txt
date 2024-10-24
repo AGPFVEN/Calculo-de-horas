@@ -1,0 +1,3 @@
+18:30 Barter-Bolsa-de-horas (analisis de confirmación previa a resolución) 19:30
+FV3 (Modificar ramas de github y subirlo todo a producción) 20:10
+1:25 Digitalización-acuerdo-reparto (Pensar como descargar archivo con azure functions) 1:40

@@ -1,0 +1,13 @@
+9:30 CapsuleProject (Carlos ayudó a esqueleto de propuesta) 9:55
+Barter-Daily (Firma acuerdo de reparto, bolsa de horas, vistas) 10:50
+AcuerdoDeReparto (Arreglar fallo en Backend, Al final era fallo del front) 11:20
+Migración-GSIC (aspx?ID no sé como solucionarlo) 12:10
+FV3 (Replicar comportamiento de FV2 en ACC, rellenar autoconsumo y otro) 12:35
+Migración-GSIC (aspx?ID no sé como solucionarlo) 13:20
+CapsuleProject (Carlos ayudó a esqueleto de propuesta) 13:40
+14:20 Tícket#1325 (autorrellenar autoconsumo, permisos de equipo) 15:10
+CapsuleProject (Odoo vs WordPress) 16:00
+AcuerdoDeReparto (Reunión de explicación) 16:50
+AcuerdoDeReparto (Arreglar fallos) 17:10
+Migración-GSIC (aspx?ID no sé como solucionarlo) 17:25
+CapsuleProject (Carlos ayudó a esqueleto de propuesta) 18:20

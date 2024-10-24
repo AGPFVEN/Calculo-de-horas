@@ -1,0 +1,4 @@
+10:00 AcuerdoDeReparto (Reunión) 10:55
+Formación-Barter (Descargar doc con azure functions) 11:20
+AcuerdoDeReparto (Descargar doc) 11:45
+20:40 AcuerdoDeReparto (Descargar doc) 23:15

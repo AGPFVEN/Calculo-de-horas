@@ -1,0 +1,10 @@
+9:20 Empleado (Firmar cesión de imagen y rellenar habilidad) 9:35
+Tícket#1311 (Correo a Luis) 9:40
+FV3 (Más precisión) 10:35
+Tícket#1311 (Hacer cambio) 11:00
+FV3 (Más precisión) 11:40
+FV3 (Arreglar como se guardan comas en parquet) 12:25
+FV3 (Explicar como funciona FV3 a ventas) 13:20
+FV3 (Más precisión) 15:15
+15:45 FV3 (Más precisión) 16:35
+FV3 (Testing + subida a github y Azure + retoques finales) 18:10

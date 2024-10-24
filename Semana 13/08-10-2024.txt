@@ -1,0 +1,8 @@
+9:15 RC (Usar permiso adecuado) 10:50
+RC (Refinar casos de error + checkbox) 11:30
+RC (seleccionar archivos) 11:50
+12:10 Barter (Reunión - FV3) 13:00
+Barter (Reunión - Foxter n8n aiBarter) 13:45
+14:25 FV3 (Usar la calculadora en Backend) 15:30
+16:10 FV3 (Usar la calculadora en Backend) 16:40
+17:15 FV3 (Mostrar en Frontend) 18:15

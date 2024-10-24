@@ -1,0 +1,9 @@
+10:30 Tícket#1311 (Replicación, replicar el problema para resolverlo) 10:45
+Tícket#1311 (Diagnostico, ver que pasa) 10:50
+Migración-gsic (Modificar archivo de upload de Jesús) 11:15
+AcuerdoDeReparto (Descargar remote de github de frontend) 12:00
+FV3 (Revisar estado de FV3) 12:30
+12:50 FV3 (Bugfixing y deploy con Yamil) 14:35
+16:00 Kitdigital (Reunión con Rodrigo para más contexto y más pecisión en la tarea) 17:10
+FV3 (Más precisión) 17:45
+18:20 FV3 (Más precisión) 19:00

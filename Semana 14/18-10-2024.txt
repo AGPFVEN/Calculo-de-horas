@@ -1,0 +1,8 @@
+11:05 Tícket#1318 12:15
+Tícket#1319 12:55
+13:40 FV3 (Checkear futuro problema de precisión) 14:20
+19:45 RC-status (Acta) 20:00
+Migración-gsic (Sacar lista de vídeos - No pude iniciar sesión) 20:10
+RPA (Firmar docs) 20:35
+23:50 RPA (Firmar con CLI) 23:59
+00:00 RPA (Firmar con CLI) 00:06
