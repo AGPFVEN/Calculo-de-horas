@@ -1,4 +1,0 @@
-00:15 RPA (Firmar con CLI) 1:15
-Migración-gsic (buscar vídeos) 3:05
-5:10 RPA (Usar Odoo para extraer datos - Auth hecho) 6:15
-6:25 RPA (Llenar form de abajo) 7:30

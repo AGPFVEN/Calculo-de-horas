@@ -1,5 +1,0 @@
-10:00 Barter-Daily (CMS - Calculadora - No más bolsa de horas) 10:55
-11:15 SEPA (Testing) 11:45
-13:45 FV3 (Cálculo avanzado) 14:30
-FV3 (Rompí dev y Yamil se tropezo con mi error) 15:15
-15:20 FV3 (Cálculo avanzado) 

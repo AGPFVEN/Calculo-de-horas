@@ -1,5 +1,6 @@
 from datetime import datetime
 import sys
+import os
 
 # Función para calcular la diferencia entre dos horas
 def calcular_diferencia(hora1: datetime, hora2:datetime):
@@ -14,7 +15,7 @@ resultados = {}
 descripciones = {}
 hora_previa = ""
 resultado = datetime.strptime("00:00", "%H:%M")
-with open(sys.argv[1], 'r', encoding="utf8") as archivo:
+with open(sys.argv[1], 'r+', encoding="utf8") as archivo:
 
     for linea in archivo:
         descripcion_aux = ""
@@ -61,7 +62,11 @@ with open(sys.argv[1], 'r', encoding="utf8") as archivo:
             descripciones[nombre][descripcion_aux] += diferencia.seconds
         else:
             descripciones[nombre][descripcion_aux] = diferencia.seconds
-
+    
+    #Add newline if there is none
+    archivo.seek(0, os.SEEK_END)
+    if str.encode(archivo.read(1)) not in [b"\n"]:
+        archivo.write("\n")
 
 # Mostrar los resultados
 for nombre, diferencia in resultados.items():
@@ -70,7 +75,7 @@ for nombre, diferencia in resultados.items():
         for i in descripciones[nombre]:
                 sys.stdout.buffer.write((f"   + {i}: {int(descripciones[nombre][i] / 3600)}h {int((descripciones[nombre][i] % 3600) / 60)}min\n".encode("utf8")))
 
-print(f"Total de horas: {str(resultado.hour + ((resultado.day - 1) * 24))}h {str(resultado.minute)}mins\n")
+print(f"Total de horas: {str(resultado.hour + ((resultado.day - 1) * 24))}h {str(resultado.minute)}mins")
 
 # Guardar los resultados en una lista
 lista_resultados = [(nombre, diferencia) for nombre, diferencia in resultados.items()]

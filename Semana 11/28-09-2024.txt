@@ -1,9 +1,0 @@
-18:30 GSIC-migracion (reanudar descarga) 19:00
-19:20 FV3 (Comprobar que me falta para subir parquet) 19:30
-19:40 FV3 (Comprobar que me falta para subir parquet) 20:15
-RC-RPA (Ver como hacer un simulador de certificado digital) 20:20
-FV3 (Comprobar que me falta para subir parquet) 20:40
-GSIC-migracion (reanudar descarga) 20:50
-21:25 GSIC-migracion (reanudar descarga) 21:35
-2:00 GSIC-migracion (descargar archivos problematicos) 3:55
-4:15 FV3 (Corregir que no me llega de front) 4:55

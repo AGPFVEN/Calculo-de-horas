@@ -1,9 +1,0 @@
-09:20 RC 9:30
-09:30 FV3 10:15
-10:15 Reunion-daily (proyecto outlook, cajon de tareas, sistemas, mantenimiento) 11:00
-11:00 FV3 (formacion python) 11:40
-11:40 FV3 (develop) 12:50
-12:50 Reunion (pre) 13:10
-13:10 Reunion (actual-reunion) 14:15
-17:35 Reunion (acta) 18:45
-RC (crear-productos) 18:50

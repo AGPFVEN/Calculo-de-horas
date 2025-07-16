@@ -1,9 +1,0 @@
-8:55 FV3 (haciendo parquet) 9:05
-9:15 FV3 (haciendo parquet) 10:00
-Daily (discutir calculadora y hablar con Yamil sobre parquet) 11:05
-FV3 (haciendo parquet) 11:20
-11:40 FV3 (poner endpoint funcional) 13:35
-14:50 FV3 (modificar parquet - poner 15 en vez de 18) 15:00
-15:15 FV3 (Llamada Jesús sobre endpoints) 16:10
-FV3 (Llamada Yamil sobre endpoints) 16:30
-FV3 (resolver tema hubspot) 17:30

@@ -1,5 +1,0 @@
-5:00 FV3 (ingresos de convergencia) 5:50
-6:00 FV3 (ingresos de convergencia) 6:40
-7:00 FV3 (ingresos de convergencia) 8:30
-8:35 FV3 (ingresos del resto) 10:05
-21:50 RC (click de certificado) 22:30

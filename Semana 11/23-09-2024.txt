@@ -1,8 +1,0 @@
-08:50 FV3 (Comprobar que estan todos los endpoints) 9:15
-SEPA (reabrir ticket - no funciona el test para reconocer y procesar el pago) 10:00
-Facturas (Formacion - Leer documentacion) 10:10
-Facturas (Formacion - Jesus explica) 10:35
-Facturas (Hacer alguna de prueba + preguntar a Carlos) 11:15
-11:25 RC (hacer proceso para entenderlo - Hacer login con certificado digital) 12:00
-Barter (Daily - muchos temas, pero hiciste FV3) 13:00
-FV3 (ahorro) 16:00

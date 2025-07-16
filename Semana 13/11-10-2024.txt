@@ -1,6 +1,0 @@
-11:30 FV3 (Corrección de errores - cálculo de wocs) 11:55
-FV3 (Corregir subida de resultados a parquet - resutados de Mixto no se suben) 12:25
-13:00 Kitdigital (Reunión) 14:30
-14:40 FV3 (Corregir subida de resultados a parquet - total no se sube en donde debe) 15:10
-Kitdigital (Documentación) 16:00
-22:15 Kitdigital (Documentación) 22:30

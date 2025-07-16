@@ -1,7 +1,0 @@
-18:40 RPA (Ver estado actual) 18:45
-Migración-gsic (rehacer migración) 20:20
-RPA (introducir xml y pdfs a la página) 21:30
-Migración-gsic (Descarga completa menos 3 archivos) 22:15
-RPA (Solucionar problema de autofirma) 22:40
-00:30 Migración-gsic (Upload a Azure) 1:20
-4:40 Migración-gsic (upload) 4:45
