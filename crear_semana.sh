@@ -5,6 +5,7 @@ sourceDir="./"
 
 # Ruta completa del archivo de destino
 destinationFile="./esta_semana.txt"
+logsFile="./logs.txt"
 
 # Obtener todos los archivos .txt con formato de fecha (dd-mm-yyyy.txt)
 txtFiles=$(find "$sourceDir" -maxdepth 1 -type f -name "*-*-*.txt")
@@ -13,6 +14,11 @@ txtFiles=$(find "$sourceDir" -maxdepth 1 -type f -name "*-*-*.txt")
 if [ -f "$destinationFile" ]; then
     rm "$destinationFile"
 fi
+
+# Iterar sobre cada archivo .txt y agregar su contenido al archivo de destino
+for file in $txtFiles; do
+    ./calcular_dia.sh "$file"
+done
 
 # Iterar sobre cada archivo .txt y agregar su contenido al archivo de destino
 for file in $txtFiles; do

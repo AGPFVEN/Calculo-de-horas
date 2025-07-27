@@ -10,13 +10,20 @@ def calcular_diferencia(hora1: datetime, hora2:datetime):
     diferencia = h2 - h1
     return diferencia
 
+# Asegurarse que el archivo tenga una linea extra
+with open(sys.argv[1], 'rb+') as archivo:
+    
+    #Add newline if there is none
+    archivo.seek(-1, os.SEEK_END)
+    if archivo.read(1) != b"\n":
+        archivo.write(b"\n")
+
 # Leer el archivo y procesar las líneas
 resultados = {}
 descripciones = {}
 hora_previa = ""
 resultado = datetime.strptime("00:00", "%H:%M")
 with open(sys.argv[1], 'r+', encoding="utf8") as archivo:
-
     for linea in archivo:
         descripcion_aux = ""
         partes = linea.strip().split()
@@ -63,11 +70,6 @@ with open(sys.argv[1], 'r+', encoding="utf8") as archivo:
         else:
             descripciones[nombre][descripcion_aux] = diferencia.seconds
     
-    #Add newline if there is none
-    archivo.seek(0, os.SEEK_END)
-    if str.encode(archivo.read(1)) not in [b"\n"]:
-        archivo.write("\n")
-
 # Mostrar los resultados
 for nombre, diferencia in resultados.items():
     sys.stdout.buffer.write(f"{nombre}: {diferencia}\n".encode("utf8"))
