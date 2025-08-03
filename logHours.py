@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
 from datetime import datetime
+from pathlib import Path
+import sys
 import os
 
 # Function to calculate the time difference between two hours
@@ -9,11 +12,32 @@ def calculate_difference_between_hours(start_hour: datetime, end_hour:datetime):
     return h2 - h1
 
 def calculate_day(file_name_of_day):
-    print(file_name_of_day)
+    # If file doesn't exist create it and that's it
+    if (os.path.isfile(file_name_of_day) == False):
+        print("File of that day doesn't exist, creating one ...")
+        with open(file_name_of_day, 'x') as file_descriptor:
+            file_descriptor.write("\n")
+        print("File created:", file_name_of_day)
+        return 1
+    
+    # If file exists analyze it
+    analyze_time(file_name_of_day)
     return 1
 
-def calculate_week(file_name_of_week):
-    print(file_name_of_week)
+def calculate_week():
+    sourceDir = Path("./")
+
+    txt_files = [f for f in sourceDir.glob("*-*-*.txt") if f.is_file()]
+
+    print(txt_files)
+    aux_week_file_name = "esta_semana.txt"
+    with open(aux_week_file_name, "w") as aux_week_file:
+        for file_path in sourceDir.glob("*-*-*.txt"):
+            with open(file_path, "r") as infile:
+                aux_week_file.write(infile.read())
+    
+    calculate_day(aux_week_file_name)
+
     return 1
 
 def analyze_time(file_name_to_analyze: str):
@@ -28,8 +52,8 @@ def analyze_time(file_name_to_analyze: str):
     results = {}
     descriptions = {}
     previous_hour = ""
-    results = datetime.strptime("00:00", "%H:%M")
-    with open(file_name_to_analyze, 'r+', encoding="utf8") as file_descriptor:
+    result = datetime.strptime("00:00", "%H:%M")
+    with open(file_name_to_analyze, 'r', encoding="utf8") as file_descriptor:
         for line in file_descriptor:
             description_aux = ""
             parts = line.strip().split()
@@ -52,14 +76,14 @@ def analyze_time(file_name_to_analyze: str):
                         inside_parenthesis = 1
                 else:
                     name_task = i
-        
+
             if len(hours) == 1:
                 hours.insert(0, previous_hour)
 
             previous_hour = hours[1]
 
             difference = calculate_difference_between_hours(hours[0], hours[1])
-            results += difference
+            result += difference
             if name_task in results:
                 results[name_task] += difference
             else:
@@ -75,15 +99,34 @@ def analyze_time(file_name_to_analyze: str):
                 descriptions[name_task][description_aux] += difference.seconds
             else:
                 descriptions[name_task][description_aux] = difference.seconds
-    
+
     # Show results
     for name_task, difference in results.items():
-        print(f"{name_task}: {difference}\n".encode("utf8"))
+        print(f"{name_task}: {difference}")
         if name_task in descriptions:
             for i in descriptions[name_task]:
-                    print((f"   + {i}: {int(descriptions[name_task][i] / 3600)}h {int((descriptions[name_task][i] % 3600) / 60)}min\n".encode("utf8")))
+                    print((f"   + {i}: {int(descriptions[name_task][i] / 3600)}h {int((descriptions[name_task][i] % 3600) / 60)}min"))
 
-    print(f"Total hours: {str(results.hour + ((results.day - 1) * 24))}h {str(results.minute)}mins")
+    print(f"Total hours: {str(result.hour + ((result.day - 1) * 24))}h {str(result.minute)}mins")
 
     # Guardar los results en una lista
     lista_results = [(name_task, difference) for name_task, difference in results.items()]
+
+def main():
+    # Calculate day operation
+    calculate_day_command = "-cd"
+    if ((calculate_day_command in sys.argv) or ("--calculate-day" in sys.argv)):
+        calculate_day_command_index = sys.argv.index(calculate_day_command)
+        # If no file of the day given, then use the filename of that day
+        if (len(sys.argv) == calculate_day_command_index + 1):
+            calculate_day(datetime.now().strftime("%d-%m-%Y.txt"))
+        else:
+            calculate_day(sys.argv[calculate_day_command_index + 1])
+            
+    # Calculate week operation
+    calculate_week_command = "-cw"
+    if ((calculate_week_command in sys.argv) or ("--calculate-week" in sys.argv)):
+        calculate_week()
+
+if __name__ == "__main__":
+    main()
