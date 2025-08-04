@@ -27,12 +27,10 @@ def calculate_day(file_name_of_day):
 def calculate_week():
     sourceDir = Path("./")
 
-    txt_files = [f for f in sourceDir.glob("*-*-*.txt") if f.is_file()]
-
-    print(txt_files)
     aux_week_file_name = "esta_semana.txt"
     with open(aux_week_file_name, "w") as aux_week_file:
         for file_path in sourceDir.glob("*-*-*.txt"):
+            print(file_path)
             with open(file_path, "r") as infile:
                 aux_week_file.write(infile.read())
     
@@ -54,7 +52,7 @@ def analyze_time(file_name_to_analyze: str):
     previous_hour = ""
     result = datetime.strptime("00:00", "%H:%M")
     with open(file_name_to_analyze, 'r', encoding="utf8") as file_descriptor:
-        for line in file_descriptor:
+        for index, line in enumerate(file_descriptor):
             description_aux = ""
             parts = line.strip().split()
             hours = []
@@ -77,8 +75,14 @@ def analyze_time(file_name_to_analyze: str):
                 else:
                     name_task = i
 
+            # If there's only one hour at that line, use the finish hour of the previous line
             if len(hours) == 1:
                 hours.insert(0, previous_hour)
+            
+            # If there's no hour at that line, there's an error
+            elif len(hours) == 0:
+                print("Error on file:", file_name_to_analyze)
+                print("On line:", file_name_to_analyze)
 
             previous_hour = hours[1]
 
@@ -113,20 +117,23 @@ def analyze_time(file_name_to_analyze: str):
     lista_results = [(name_task, difference) for name_task, difference in results.items()]
 
 def main():
-    # Calculate day operation
-    calculate_day_command = "-cd"
-    if ((calculate_day_command in sys.argv) or ("--calculate-day" in sys.argv)):
-        calculate_day_command_index = sys.argv.index(calculate_day_command)
-        # If no file of the day given, then use the filename of that day
-        if (len(sys.argv) == calculate_day_command_index + 1):
-            calculate_day(datetime.now().strftime("%d-%m-%Y.txt"))
-        else:
-            calculate_day(sys.argv[calculate_day_command_index + 1])
+    try:
+        # Calculate day operation
+        calculate_day_command = "-cd"
+        if ((calculate_day_command in sys.argv) or ("--calculate-day" in sys.argv)):
+            calculate_day_command_index = sys.argv.index(calculate_day_command)
+            # If no file of the day given, then use the filename of that day
+            if (len(sys.argv) == calculate_day_command_index + 1):
+                calculate_day(datetime.now().strftime("%d-%m-%Y.txt"))
+            else:
+                calculate_day(sys.argv[calculate_day_command_index + 1])
             
-    # Calculate week operation
-    calculate_week_command = "-cw"
-    if ((calculate_week_command in sys.argv) or ("--calculate-week" in sys.argv)):
-        calculate_week()
+        # Calculate week operation
+        calculate_week_command = "-cw"
+        if ((calculate_week_command in sys.argv) or ("--calculate-week" in sys.argv)):
+            calculate_week()
+    except:
+        print("Error at processing request")
 
 if __name__ == "__main__":
     main()
